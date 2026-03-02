@@ -27,7 +27,7 @@ The project focuses on predicting **motor_UPDRS** and **total_UPDRS** scores fro
 * **Linear activation** in output layer (regression task)
 * Multiple architectures evaluated using validation loss
 
-✅ **Best Architecture Selected**:
+**Best Architecture Selected**:
 
 Input → [256 → 128 → 64] → Output (2 units)
 
