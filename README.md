@@ -70,7 +70,6 @@ Input → [256 → 128 → 64] → Output (2 units)
 
 * Best architecture selected by comparision based on validation loss
 * Best model parameters selected during training based on validation loss
-* R2 scores reported on test data using best model are
- ** motor_UPDRS : 81.9%
-  ** total_UPDRS : 82.2%
-  
+* **R² scores reported on test data using the best model:**
+  * **motor_UPDRS**: 81.9%
+  * **total_UPDRS**: 82.2%
