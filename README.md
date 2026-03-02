@@ -68,7 +68,9 @@ Input → [256 → 128 → 64] → Output (2 units)
 
 ## Key Results
 
-* Architecture selection driven by **validation loss**
-* Smooth convergence with learning rate scheduling
-* Strong regression performance with meaningful R² scores
-* Computational cost (FLOPs) analyzed for model efficiency
+* Best architecture selected by comparision based on validation loss
+* Best model parameters selected during training based on validation loss
+* R2 scores reported on test data using best model are
+ ** motor_UPDRS : 81.9%
+  ** total_UPDRS : 82.2%
+  
